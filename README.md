@@ -1,1 +1,1 @@
-# MVC-Antrenman
+# MVC-Odev Göktuğ & İbrahim
