@@ -1,0 +1,19 @@
+﻿@model List<MVC_Antrenman.Models.Models.Product>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 my-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@item.ProductName</h5>
+                    <p class="card-text">
+                        <span>Unit Price: @item.UnitPrice</span>
+                        <span>Units In Stock: @item.UnitsInStock</span>
+                        <button type="button" class="btn btn-success">Sepete Ekle</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
